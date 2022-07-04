@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Pacifico&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Lobster&family=Pacifico&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Dancing+Script&family=Lobster&family=Pacifico&family=Roboto+Mono&display=swap');
+
+/*For universal*/
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+/*For Navbar*/
+#navbar{
+    background-color: #901f1f;
+    font-family: 'Dancing Script', cursive;
+}
+#nav
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:0px;
+    left:0px;
+    margin:7px;
+    color: white;
+}
+#logo img{
+    height:42px;
+    filter: invert(1);
+}
+li{
+    margin:15px;
+    font-size: 1.3rem;
+}
+li a{
+    padding:5px;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color :black;
+    font-weight: bold;
+}
+/*For intro section*/
+#introsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center /cover no-repeat url('/static/samantha-weisburg-Vgj9bUwaqT0-unsplash.jpg');
+    height:537px;
+    color: white;
+    background-color: red;
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+
+}
+/*For mission section*/
+#mission{
+    display: block;
+    margin: auto;
+    width:67%;
+    height:352px;
+    background-color:white;
+}
+#mission h2{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.card{
+    display: inline-block;
+    box-shadow: 2px 5px 8px #767171;
+    border-radius: 24px;
+    width:29%;
+    height:233px;
+    margin: 23px 20px;
+}
+.card h3{
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+    text-align: center;
+    margin: 12px;
+}
+#contain{
+    height: 133px;
+    display: flex;
+    align-items: center;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+
+}
+.box-img{
+    height:133px;
+}
+.box-img img{
+    height: inherit;
+}
+/*For sponser section*/
+#sponsersection{
+    height:230px;
+    background-color: #e4e4e4;
+
+}
+#sponsersection h2{
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    padding: 2px;
+    font-size: 3.2rem;
+}
+#sponser{
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+#sponser img{
+    height:100px;
+    padding:53px;
+    transition: all 0.5s ease-in-out;
+}
+#sponser img:hover{
+    transform: scale(1.2);
+
+}
+
+/*For footer*/
+#footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:24px;
+    background-color: black;
+    color:white;
+}

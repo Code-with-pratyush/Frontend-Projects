@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/stylecontact.css
+
+block content
+    div.container 
+        h2  Contact Us 
+        form(action="/contact" method="post" class="myflex")
+            input(type="text" ,class="mycalss" name="name" placeholder="Enter Your Name")
+            input(type="number" ,class="mycalss" name="Age" placeholder="Enter Your Age")
+            input(type="email" ,class="mycalss" name="email" placeholder="Enter Your Email")
+            input(type="text" ,class="mycalss" name="Phone" placeholder="Enter Your Phone Number")
+            input(type="text" ,class="mycalss" name="Adress" placeholder="Enter Your Adress")
+            input(type="text" ,class="mycalss" name="Desc" placeholder="Enter Something about Yourself")
+            input(type="text" ,class="mycalss" name="Danceform" placeholder="Enter The Dance Form You Want To Select")
+            button.btn 
+                | Submit

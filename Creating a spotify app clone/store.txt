@@ -1,0 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&family=Ubuntu&family=Varela+Round&display=swap');
+font-family: 'Varela Round', sans-serif;
+font-family: 'Ubuntu', sans-serif;

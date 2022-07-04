@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+         include ../static/style.css
+
+block content 
+      section#introsection
+         | "Dancing is the silent poetry"
+      section#mission  
+         h2 Our Mission
+         div.card
+            h3 Dance Perfection 
+            div#contain
+                   div.box-img
+                       img(src="/static/img/card2-removebg.png")
+                   div.img-content
+                       p Creating Perfect Dancers
+         div.card
+            h3 Dance the Way you like
+            div#contain
+                   div.box-img
+                       img(src="/static/img/card5-removebg-removebg-preview.png")
+                   div.img-content
+                       p Flexing Your Body For flexing Your Body  
+         div.card
+            h3 Expert Teaching 
+            div#contain
+                   div.box-img
+                        img(src="/static/img/card6-removebg-removebg-preview.png")
+                   div.img-content
+                        p Guidance For Global Performance  
+      section#sponsersection 
+         h2  Our Sponsers
+         div#sponser
+                   img(src="/static/img/microsoft.png", alt="sponser image")  
+                   img(src="/static/img/instagram-logo.png", alt="sponser image")
+                   img(src="/static/img/facebook.png", alt="sponser image")
+                   img(src="/static/img/apple.png", alt="sponser image")

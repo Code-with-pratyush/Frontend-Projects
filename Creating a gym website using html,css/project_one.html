@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyush Fitness Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Signika+Negative&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        font-family:'Baloo Bhai 2', cursive;
+    }
+    body
+    {
+        margin:0px;
+        padding:0px;
+        background: url('images/wp4299998-training-wallpapers.jpg');
+        background-repeat:none;
+        background-size: 1600px;
+    }
+    .left img
+    {
+        width:80px;
+        margin:0px;
+        filter:invert(100%);
+        
+    }
+    .left
+    {
+        background-color: black;
+        line-height: 0px;
+        display:inline-block;
+        position: absolute;
+        top:0px;
+
+    }
+    .right
+    {
+        /*Here we used position absolute because we want border across the written word only and we have to move it to right*/
+        position: absolute;
+        right:10px;
+        top:10px;
+        display:inline-block;
+
+    }
+    .mid
+    {
+        display:block;
+        width: 40%;
+        margin: 15px auto ;
+    }
+    .navbar li
+    {
+        display: inline-block;
+    }
+    .navbar li a
+    {
+        color:white;
+        text-decoration: none;
+        padding:20px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .navbar li a:hover,.navbar ul a:active
+    {
+        color:rgb(102, 99, 105);
+    }
+    .btn
+    {
+
+        color:white;
+        margin-top:0px;
+        background-color: rgb(1, 4, 7);
+        padding: 4px;
+        border-radius: 9px;
+    }
+    .btn:hover
+    {
+        color: rgb(126, 138, 142);
+        cursor: pointer;
+    }
+    .container{
+        display: inline-block;
+        color: white;
+        border:2px solid white;
+        margin: 20px 20px;
+        padding: 14px 100px;
+        border-radius: 16px;
+    }
+    .form-group
+    {
+        margin: 5px;
+        text-align: center;
+    }
+    .third,.second,.first
+    {
+        text-align: center;
+    }
+    .fifth
+    {
+        margin-left:130px;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email</button>
+            
+        </div>
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" target="_blank">Home</a></li>
+                <li><a href="" target="_blank">Contact Us</a></li>
+                <li><a href="" target="_blank">Fitness calculator</a></li>
+                <li><a href="" target="_blank">About</a></li>
+            </ul>
+
+
+        </div>
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="images/latest logo.jpg" alt="This is an image">
+
+        </div>
+        <div class="container">
+            <p class="para">&nbsp;JOIN OUR BEST GYM IN JHARKHAND</p>
+                <form action="noaction.php">
+                    <div class="form-group">
+                        Name:* &nbsp;<input type="text" name="enter your name"
+                        class="first" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        Age:*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="enter your name"
+                        class="second" placeholder="Enter your age" required>
+                    </div>
+                    <div class="form-group">
+                        Email:*&nbsp;&nbsp;&nbsp;<input type="email" name="enter your name" class="third"placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group"class="hey">
+                        Phone:*<input type="text" name="phone no" placeholder="Enter your phone number" required>
+                    </div>
+                    <input type="submit" value="submit" class="fifth">
+                </form>
+            </div>
+        </div>
+    </header>
+  </body>
+</html>
